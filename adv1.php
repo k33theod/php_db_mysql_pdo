@@ -8,7 +8,7 @@ spl_autoload_register(function ($class) {
 
 // header("Content-type: application/json; charset=UTF-8");
 
-$dbconn = new DB("localhost", "product_db", "thodoris", "utfrts30sk");
+$dbconn = new DB("localhost", "product_db", "thodoris", "mypassword");
 
 $dbobj = new DBqueries($dbconn);
 
